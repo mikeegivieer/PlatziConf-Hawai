@@ -39,7 +39,7 @@
               <a class="nav-link" href="#conviertete-en-orador">Conviértete en orador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-platzi" href="#">Compra tickets</a>
+              <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Compra tickets</a>
             </li>
           </ul>
         </div>
@@ -73,7 +73,7 @@
           Ven a conocer a miembros del team platzi, a otros estudiantes de platzi y a los
           oradores de primer nivel que tenemos para ti. Te esperamos!</p>
      <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-     <button type="button" class="btn btn-platzi">Comprar tickets</button>
+     <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar tickets</button>
         </div>
       </div>
     </div>
@@ -233,6 +233,29 @@
    </div>
 </footer>
 <!-- /Footer -->
+
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
